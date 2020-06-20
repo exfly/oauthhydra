@@ -1,0 +1,15 @@
+session_name: oauthhyper
+windows:
+- window_name: dev window
+  layout: tiled
+  panes:
+    - vagrant ssh -- -NT -L 5555:127.0.0.1:5555           # pane no. 1
+    - vagrant ssh -- -NT -L 3000:127.0.0.1:3000         # pane no. 2
+    - vagrant ssh -- -NT -L 4445:127.0.0.1:4445          # pane no. 3
+    - vagrant ssh -- -NT -L 4444:127.0.0.1:4444          # pane no. 4
+
+    - vagrant ssh -- -NT -L 4455:127.0.0.1:4455 # kratos-ui
+    - vagrant ssh -- -NT -L 4433:127.0.0.1:4433 # kratos public
+    - vagrant ssh -- -NT -L 4455:127.0.0.1:4455 # kratos admin
+    - vagrant ssh -- -NT -L 4436:127.0.0.1:4436 # mailslurper
+    - vagrant ssh -- -NT -L 4437:127.0.0.1:4437 # mailslurper

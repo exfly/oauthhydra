@@ -1,0 +1,10 @@
+FROM golang:1-alpine
+
+WORKDIR /app
+
+COPY go.mod go.mod
+COPY go.sum go.sum
+
+RUN GOPROXY=https://goproxy.io,direct go mod download
+
+COPY . /app

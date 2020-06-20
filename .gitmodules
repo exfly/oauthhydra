@@ -1,0 +1,12 @@
+[submodule "third_part/ory/hydra-login-consent-node"]
+	path = third_part/ory/hydra-login-consent-node
+	url = https://github.com/ory/hydra-login-consent-node.git
+[submodule "third_part/ory/hydra"]
+	path = third_part/ory/hydra
+	url = https://github.com/ory/hydra.git
+[submodule "third_part/ory/kratos"]
+	path = third_part/ory/kratos
+	url = https://github.com/ory/kratos.git
+[submodule "third_part/ory/kratos-selfservice-ui-node"]
+	path = third_part/ory/kratos-selfservice-ui-node
+	url = https://github.com/ory/kratos-selfservice-ui-node.git
